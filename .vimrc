@@ -10,6 +10,8 @@ set noexpandtab
 set encoding=utf8
 set background=dark
 
+set timeoutlen=1000 ttimeoutlen=0
+
 set number
 execute pathogen#infect()
 filetype plugin indent on
